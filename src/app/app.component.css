@@ -1,0 +1,11 @@
+.adici{
+    background-color: rgba(201, 76, 76, 0);
+    color: rgb( 255, 219, 88);
+    border:none;
+    margin-top:10%;
+    margin-left:7%;
+}
+
+.adici:hover{
+    color: blue;
+}

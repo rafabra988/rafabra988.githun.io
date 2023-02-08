@@ -1,0 +1,12 @@
+<div class="meio">
+    <a class="xis" routerLink="/">X</a>
+    <div>
+        <button (click)="getValue(message , pgparou.value , prparou.value , obs.value)">Salvar</button><br>
+        <p>Parou na página {{abouts[message].pgparou}} no paragrafo {{abouts[message].prparou}}</p><br>
+        <input type="number" #pgparou placeholder="Atualizar página que parou" nome="pgparou">
+        <input type="number" #prparou placeholder="Atualizar paragrafo que parou" nome="prparou">
+        <p>Observações:</p><br>
+        <input type="text" #obs placeholder="Atualizar/adicionar observação" nome="obs">
+        <p>{{abouts[message].obs}}</p>        
+    </div>
+</div>

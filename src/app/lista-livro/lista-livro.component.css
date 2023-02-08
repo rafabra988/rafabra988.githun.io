@@ -1,0 +1,49 @@
+.lista{
+    margin-top: 2%;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 170px;
+    height: 100px;
+    margin-right: 3%;
+}
+
+.lista:hover{
+    color: rgb( 255, 219, 88);
+    border: 1px solid rgb( 255, 219, 88);
+}
+
+.nome{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.trash{
+    position: absolute;
+    margin-top: 0.5%;
+    margin-left: 4%;
+}
+
+.trash:hover{
+    color: red;
+}
+
+.caralha{
+    border: none;
+    width: 190px;
+}
+
+.caralha1{
+    height: 120px;
+}
+
+.pin{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: -5%;
+}
